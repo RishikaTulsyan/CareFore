@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ngo_main"
+    tools:context=".Postinfo">
+
+    <ImageButton
+        android:id="@+id/imageBtn"
+        android:layout_width="318dp"
+        android:layout_height="222dp"
+        android:adjustViewBounds="true"
+        android:background="@mipmap/post"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <EditText
+        android:id="@+id/textTitle"
+
+        android:layout_width="319dp"
+        android:layout_height="52dp"
+        android:hint="Title"
+        android:padding="10dp"
+        android:textColor="#1B1A1A"
+        android:textColorHint="#151515"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <EditText
+
+        android:id="@+id/textDesc"
+        android:layout_width="313dp"
+        android:layout_height="151dp"
+        android:hint="Content"
+        android:padding="10dp"
+        android:textColor="#1B1A1A"
+        android:textColorHint="#151515"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <Button
+        android:id="@+id/postBtn"
+        android:layout_width="323dp"
+        android:layout_height="63dp"
+
+        android:background="@drawable/gradle"
+        android:text="Post"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/post"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradle2"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Uername"
+        android:inputType="textPersonName"
+        android:textColor="#1B1A1A"
+        android:textColorHint="#151515"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBtn"
+        app:layout_constraintVertical_bias="0.25" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

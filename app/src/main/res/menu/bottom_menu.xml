@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_customer"
+        android:icon="@drawable/customer"
+        android:title="Customer" />
+    <item
+        android:id="@+id/nav_NGO"
+        android:icon="@drawable/customer"
+        android:title="NGO's" />
+    <item
+        android:id="@+id/nav_volunteers"
+
+        android:enabled="true"
+        android:icon="@drawable/customer"
+        android:title="Volunteers"
+        android:visible="true" />
+
+</menu>

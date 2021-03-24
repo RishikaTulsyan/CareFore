@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="308dp"
+        android:layout_height="24dp"
+        android:text="Q1 How to Donate Clothes or Stationary Items?"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="346dp"
+        android:layout_height="164dp"
+        android:text="Ans:	 To donate clothes and stationary you must,
+1)	You must first be a registered Member with us.
+2)	Register by selecting the Register or Sign-In Tab.
+3)	Select Donate
+4)	Select Items and the following amount ”Clothes”:”Number of Garments” and “Stationary”:”Number of Item”
+5)	Confirm
+6)	A Confirmation Email will be sent to you and a CareFor Executive will come to collect your generous donation
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="359dp"
+        android:layout_height="32dp"
+        android:text="Q2 How to Donate Food or Medicines?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="385dp"
+
+        android:layout_height="105dp"
+        android:text="Please check the date of expiry before Donating these Items an expired donation is a waste of essential resources. To donate these Items
+1)	You must be a member.
+2)	Select Donate
+3)	Select Items and the following amount ”Clothes”:”Number of Garments” and “Stationary”:”Number of Item”
+4)	Confirm
+A Confirmation Email will be sent to you and a CareFor Executive will come to collect your generous donation.
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Carefore</string>
+
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="post">
+
+    </string-array>
+</resources>

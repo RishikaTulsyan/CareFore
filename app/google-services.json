@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544402749885",
+    "firebase_url": "https://carealot.firebaseio.com",
+    "project_id": "carealot",
+    "storage_bucket": "carealot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544402749885:android:c6354d416b4a4427673ad4",
+        "android_client_info": {
+          "package_name": "com.one.carealot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544402749885-1auu9bac7qdk87sei456tcrksjscu41h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.one.carealot",
+            "certificate_hash": "018ded100740638bda21a0d995e3b83eb249eb56"
+          }
+        },
+        {
+          "client_id": "544402749885-2g4lp90faoboktain28lv6b866hl0kue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaOQB4w6OYFYxk2YE9kwWySBqIS3Vw-4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544402749885-2g4lp90faoboktain28lv6b866hl0kue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
